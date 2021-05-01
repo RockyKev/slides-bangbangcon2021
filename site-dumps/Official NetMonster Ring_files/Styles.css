@@ -1,0 +1,436 @@
+.headline-blue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0000FF;
+}
+.headline-blue-small {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #0000FF;
+}
+
+.body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+}
+.body-link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+	color:#000000;
+	cursor:hand;
+	
+}
+
+.headline-white {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.body-white {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	line-height: 14px;
+}
+
+
+.headline-body {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	
+}
+
+.headline-white-link {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.headline-yelow-link {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FEFB19;
+	text-decoration: none;
+}
+
+.headline-red-small {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #FF0000;
+}
+.stroke-black {
+
+
+	height: auto;
+	width: auto;
+	clear: none;
+	float: none;
+	border: 0.5pt solid #000000;
+}
+.stroke-body {
+
+	height: auto;
+	width: auto;
+	clear: none;
+	float: none;
+	border: 0.5pt solid #003399;
+}
+.stroke-red {
+
+	height: auto;
+	clear: none;
+	float: none;
+	border: 0.5pt solid #FF0000;
+}
+
+
+.headline-black {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.LeftBlue {
+	position: absolute;
+	left: 186px;
+	margin: 0;
+	margin-top: -2px;
+}
+.LeftGray {
+	position: absolute;
+	left: 350px;
+	margin: 0;
+	margin-top: -2px;
+}
+
+
+.RightBlue {
+	position: absolute;
+	right: 374px;
+	margin: 0;
+	margin-top: -2px;	
+}
+.RightGray {
+	position: absolute;
+	right: 186px;
+	margin: 0;
+	margin-top: -2px;	
+}
+
+.RightSub {
+	position: absolute;
+	right: 9px;
+	margin: 0;
+	margin-top: -2px;	
+}
+	
+.Banner {
+	width: 170px;
+	background-image: url(/web/20050624034147im_/http://www.ringsurf.com/images/BannerDots.jpg);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	height: 19px;
+	padding-top: 0px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 15px;
+	margin: 0;
+}	
+
+.BannerMidBlue {
+	width: 100%;
+	background-image: url(/web/20050624034147im_/http://www.ringsurf.com/images/background_blue.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	height: 20px;
+	padding-top: 0px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 15px;
+	margin: 0;
+	text-decoration: none;
+}	
+
+.BannerMidGray {
+	width: 100%;
+	background-image: url(/web/20050624034147im_/http://www.ringsurf.com/images/gray_background.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	height: 20px;
+	padding-top: 0px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 15px;
+	margin: 0;
+	text-decoration: none;
+}	
+
+.Sides {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	background-image: url(/web/20050624034147im_/http://www.ringsurf.com/images/Back.gif);
+	background-repeat: repeat;
+	margin: 0;
+	text-align: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	line-height: 13px;
+}
+
+.SidesMid {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	margin: 0;
+	text-align: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	line-height: 13px;
+	background-color: FFFFBF;
+	background-image: url(/web/20050624034147im_/http://www.ringsurf.com/images/BackSmallLight.gif);
+	background-repeat: repeat;
+	border-left-color: #0054A6;
+	border-right-color: #0054A6;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom-color: #0054A6;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin-bottom: 11px;
+}
+
+.SidesMidSearch {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	margin: 0;
+	text-align: left;
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	line-height: 11px;
+	background-color: FFFFBF;
+	background-image: url(/web/20050624034147im_/http://www.ringsurf.com/images/BackSmallLight.gif);
+	background-repeat: repeat;
+	border-left-color: #0054A6;
+	border-right-color: #0054A6;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom-color: #0054A6;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin-bottom: 0px;
+}
+
+.SidesMidDark {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	margin: 0;
+	text-align: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	line-height: 13px;
+	background-color: FFFF8C;
+	background-image: url(/web/20050624034147im_/http://www.ringsurf.com/images/MidBackBright.gif);
+	background-repeat: repeat;
+	border-left-color: #0054A6;
+	border-right-color: #0054A6;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom-color: #0054A6;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin-bottom: 11px;
+}
+
+.SidesMidZero {
+	margin: 0;
+	background-color: FFFF8C;
+	background-image: url(/web/20050624034147im_/http://www.ringsurf.com/images/MidBackBright.gif);
+	background-repeat: repeat;
+	border-left-color: #0054A6;
+	border-right-color: #0054A6;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom-color: #0054A6;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin-bottom: 11px;
+}
+
+.ContentWhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	margin: 0;
+	text-align: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	line-height: 15px;
+	background-repeat: repeat;
+	border-top-color: #0054A6;
+	border-left-color: #0054A6;
+	border-right-color: #0054A6;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-color: #0054A6;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin-bottom: 11px;
+}
+
+.Sponsors {
+	float: right;
+	margin-left: 11px;
+}
+
+.LeftCol {
+	position: absolute;
+	top: 126px;
+	left: 11px;
+}
+
+.Sides02 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	background-image: url(/web/20050624034147im_/http://www.ringsurf.com/images/BackBright.gif);
+	background-repeat: repeat;
+	margin: 0;
+	text-align: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	line-height: 13px;
+}
+
+.Content {
+	padding-top: 1px;
+}
+
+.Bottom {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 11px;
+}
+
+.Nav {
+	position: absolute;
+	top: 16px;
+	margin-left: -157px;
+}
+
+.style1 {
+	color: #003366;
+	font-weight: bold;
+}
+p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 11px;
+	margin-left: 0px;
+}
+
+.button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: #0153A5;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #0153A5;
+	margin: 1px;
+	padding: 1px;
+	cursor:hand;
+}
+.spanlink {
+cursor:pointer;
+cursor:hand;
+text-decoration: underline;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+
+}
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 03:41:47 Jun 24, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:11:02 May 01, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  CDXLines.iter: 22.468 (3)
+  load_resource: 106.047
+  LoadShardBlock: 46.743 (3)
+  PetaboxLoader3.resolve: 39.256
+  exclusion.robots: 0.208
+  esindex: 0.013
+  exclusion.robots.policy: 0.193
+  PetaboxLoader3.datanode: 67.233 (4)
+  RedisCDXSource: 0.801
+  captures_list: 80.681
+*/

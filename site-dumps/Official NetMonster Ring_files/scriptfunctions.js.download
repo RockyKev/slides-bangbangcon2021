@@ -1,0 +1,161 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+// JavaScript Document
+<!--
+var url;
+var selected= new Array();
+
+function getsubs()
+{
+ form1.mainPickText.value=form1.mainPick.options[form1.mainPick.selectedIndex].text;
+ form1.submit();
+}
+//-->
+
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function compareNumbers(a, b) {
+ return a - b
+}
+function checkString(id,add)
+{
+ if((document.massive.items_delete.value.length!=0)&&(document.massive.items_delete.value!="undefined"))
+  {
+  url = document.massive.items_delete.value;
+  url_array = url.split(",");
+  url_array.sort(compareNumbers);
+  //alert(url_array.toString()); 
+  url=url_array.join(",");
+  //str_name=" "+id+" ";
+  str_name=id;
+  if (url.indexOf(str_name)!=-1)
+  { 
+    return true; 
+  }
+  else
+  {
+   if (add)
+   {
+   url += ",";
+   }
+   return false;
+  }
+ }
+  else
+  {
+  url = new String();
+  }
+ }
+
+function checkOne(name,no)
+{ 
+
+if (eval("document.form"+no+"."+name+".checked")){
+
+if (!checkString(eval("document.form"+no+"."+name+".value"),true))
+ {
+  url+=" "+eval("document.form"+no+"."+name+".value")+" "; 
+ } 
+}
+else
+ {
+  
+  if (checkString(eval("document.form"+no+"."+name+".value"),false))
+  {
+   str_length = (eval("document.form"+no+"."+name+".value")).length;
+   index= url.indexOf(eval("document.form"+no+"."+name+".value"));
+  
+   if((index+str_length+1)== url.length)
+   {
+    url_final = url.substring(0,index-2);
+   }
+   else
+   {
+    url_final = url.substring(0,index-1) + url.substring(index+str_length+2)
+   }
+   url=new String(url_final);
+  }
+ }
+
+document.massive.items_delete.value = url;
+//alert (url);
+
+//alert(name);
+}
+function setAction(action_button)
+{
+document.massive.action.value=action_button;
+document.massive.submit();
+}
+
+function checkAll(start,end)
+{
+if (eval("document.massive.all.checked")){
+
+for(var i=start; i< end; i++)
+{
+if (!checkString(eval("document.form"+i+".masive_delete_"+i+".value"),true))
+ {
+  eval("document.form"+i+".masive_delete_"+i+".checked=true");
+  url+=" "+eval("document.form"+i+".masive_delete_"+i+".value")+" "; 
+  //alert(url);
+ } //if
+ document.massive.items_delete.value = url;
+}//for
+}//if checked
+else
+{
+ for(var i=start; i< end; i++)
+ {
+ eval("document.form"+i+".masive_delete_"+i+".checked=false");
+ }//for
+ url= new String();
+ document.massive.items_delete.value = url;
+ }
+
+//alert( document.massive.items_delete.value);
+}
+
+//-->
+
+
+
+
+}
+/*
+     FILE ARCHIVED ON 03:42:41 Jun 24, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:11:02 May 01, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 308.362 (3)
+  CDXLines.iter: 17.626 (3)
+  PetaboxLoader3.datanode: 137.54 (4)
+  exclusion.robots.policy: 0.161
+  captures_list: 333.084
+  PetaboxLoader3.resolve: 27.539
+  RedisCDXSource: 1.539
+  load_resource: 102.68
+  esindex: 0.024
+  exclusion.robots: 0.174
+*/
