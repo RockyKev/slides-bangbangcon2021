@@ -1,0 +1,118 @@
+/* $Id: common.css,v 1.2 2004/02/25 22:38:43 dries Exp $ */
+
+/* HTML tags */
+a, a:link, a:active {
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+body {
+  margin: 0;
+  padding: 3em;
+  font-family: arial, helvetica, sans-serif;
+  font-size: .9em;
+  line-height: 1.3em;
+}
+blockquote {
+  font-style: italic;
+}
+table {
+  margin: 0;
+  padding: .5em;
+  border-collapse: collapse;
+}
+code, pre {
+ font-size: 1em;
+}
+pre {
+ font-size: 0.8em;
+ padding: 1em;
+ background: #eee;
+}
+li {
+ padding-bottom: .3em;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .25em;
+}
+h1 {
+  font-size: 1.3em;
+}
+h2 {
+  font-size: 1.2em;
+}
+h3 {
+  font-size: 1.1em;
+}
+h4, h5, h6 {
+  font-size: 1em;
+}
+p {
+  margin: 0 0 .5em 0;
+}
+br {
+  line-height: 0.6em;
+}
+
+/* regions */
+#header {
+  margin-bottom: 2em;
+}
+#sidebar-left, #sidebar-right {
+  vertical-align: top;
+  padding: 10px;
+}
+#main {
+  padding-left: 1em;
+  padding-right: 1em;
+  vertical-align: top;
+  width: 60%;
+}
+#footer {
+ font-size: 0.8em;
+ padding-top: 2em;
+ text-align: center;
+}
+/* region-specific tags */
+.title {
+  margin: 0 0 .25em 0;
+}
+.content {
+  margin: 0 0 .5em 0;
+}
+.links {
+  font-size: 0.8em;
+  line-height: 1.25em;
+}
+.block {
+  width: 180px;
+}
+
+/* modules definitions */
+.form-item textarea {
+  font-size: 1em;
+}
+
+/*
+     FILE ARCHIVED ON 17:11:03 Jun 11, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:35:14 May 02, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 112.868
+  exclusion.robots: 0.093
+  exclusion.robots.policy: 0.085
+  RedisCDXSource: 2.082
+  esindex: 0.008
+  LoadShardBlock: 90.635 (3)
+  PetaboxLoader3.datanode: 130.394 (4)
+  CDXLines.iter: 17.996 (3)
+  load_resource: 138.203
+  PetaboxLoader3.resolve: 43.648
+*/

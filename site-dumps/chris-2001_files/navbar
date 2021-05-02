@@ -1,0 +1,37 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+document.write("<center><table bgcolor=darkblue><tr><td><table bgcolor=ffffff><tr><td align=center><a href=\"http://dir.webring.com/rw\" style=\"text-decoration: none;\"><font face=arial color=darkblue><b>WebRing&reg;</b></a></td></tr><tr><td align=center colspan=2><font face=arial size=-1 color=darkblue>Good News! Your code is installed<br>This will show <b>Until You <a href=\"http://dir.webring.org\">Join A Ringi</a></b></font><br><font face=arial size=-2 color=black>Is this your site?<br><a href=\"http://V.webring.com/h/miss_ssnb?wrid=c45207&unum=97078457610024843&url=http%3A%2F%2Fwebdemon%2Evr9%2Ecom%2Findex%2Ehtml\"><font face=arial size=-2>ID/U# has no memberships?  Click for assistance.</font></a></font></td></tr></table></td></tr></table><scr"+"ipt type=\"text/javascr"+"ipt\" language=\"javascr"+"ipt\"> var sc_project=1912118; var sc_invisible=1; var sc_partition=17; var sc_security=\"259a3061\"; </scr"+"ipt> <scr"+"ipt type=\"text/javascr"+"ipt\" language=\"javascr"+"ipt\" src=\"http://www.statcounter.com/counter/counter.js\"></scr"+"ipt>");
+
+
+}
+/*
+     FILE ARCHIVED ON 21:28:47 Jan 20, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:35:54 May 02, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  esindex: 0.013
+  exclusion.robots: 0.185
+  exclusion.robots.policy: 0.172
+  RedisCDXSource: 116.535
+  PetaboxLoader3.datanode: 64.624 (4)
+  captures_list: 276.44
+  CDXLines.iter: 26.772 (3)
+  PetaboxLoader3.resolve: 25.741
+  load_resource: 73.861
+  LoadShardBlock: 130.377 (3)
+*/

@@ -1,0 +1,164 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+// HEP Cut-and-Paste Code 
+// $Revision: 9 $
+// $Date: 7/24/00 11:55a $
+
+
+
+var rejectVal=0;
+var splashPop = "https://web.archive.org/web/20020701210501/http://download.cometsystems.com/popupsplash.asp";
+var popupURL;
+var code=21;
+
+window.onerror=isError;        
+function isError(msg){
+    //alert("ERROR"); //DEBUG
+    //Fail Quietly
+    return true;
+}
+
+function Is () {        // Browser Sniffer
+    var agt=navigator.userAgent.toLowerCase();           
+    this.major = parseInt(navigator.appVersion);
+    this.nav  = ((agt.indexOf('mozilla')!=-1) && ((agt.indexOf('spoofer')==-1) && (agt.indexOf('compatible') == -1)));
+    this.nav3 = (this.nav && (this.major == 3));
+    this.nav4 = (this.nav && (this.major >= 4));
+    this.win95 = ((agt.indexOf("win95")!=-1) || (agt.indexOf("windows 95")!=-1));
+    this.ie   = (agt.indexOf("msie") != -1);
+    this.ie3  = (this.ie && (this.major == 2));
+    this.ie4  = (this.ie && (this.major >= 4));        
+    this.win98 = ((agt.indexOf("win98")!=-1)||(agt.indexOf("windows 98")!=-1));
+    this.winnt = ((agt.indexOf("winnt")!=-1)||(agt.indexOf("windows nt")!=-1));
+    this.win32 = this.win95 || this.winnt || this.win98 || ((this.major >= 4) && (navigator.platform == "Win32")) || (agt.indexOf("win32")!=-1) || (agt.indexOf("32bit")!=-1);
+    this.compatibleIE = ( this.win32 && (this.ie4 || this.ie3));
+    this.compatibleNS = ( this.win32 && (this.nav3||this.nav4));
+    this.compatible = (this.compatibleIE || this.compatibleNS);
+}
+var is = new Is();
+
+function NSEmbed(cursorTag, mode, script) 
+{
+        //mode parameter can be 'auto' or 'manual'
+        //script parameter can be 'script' or 'region'
+        if (is.compatibleNS) {
+                if (navigator.mimeTypes["application/x-comet"]) {
+                   document.write('<embed name="CurNS" type="application/x-comet" width=2 height=1 ');
+                   if (script=='script') document.write(' usescript="true" '); 
+                   document.write(cursorTag);
+                   document.writeln('></embed>');
+                }
+                else if( (!GetCookie("RejectedCursor")) && (mode!='manual') ) showPopUp();
+        }
+}
+function showPopUp() 
+{
+        popupURL= splashPop + "?RejectDuration=" + rejectVal + "&RefererUserCode="+code;
+        popupWin=window.open(popupURL,"popupwindow","resizable=yes,location=no,toolbar=no,scrollbars=no,height=300,width=300");
+}    
+          
+function GetCookie(name) {
+    var arg = name+"=";
+    var arglength=arg.length;
+    var cookielength=document.cookie.length;
+    var i=0;
+    while(i<cookielength) {
+        var valStart=i+arglength;
+        if(document.cookie.substring(i,valStart)==arg) {
+            var end=document.cookie.indexOf (";",valStart);
+            if(end==-1) end=document.cookie.length;
+            return unescape(document.cookie.substring(valStart,end));
+        }
+        i=document.cookie.indexOf(" ",i)+1;
+        if(i==0) break;
+    }
+    return null;
+}
+        
+
+function setReject(days) {
+   document.cookie = "RejectedCursor=true";
+}
+
+var Loaded=true;
+
+function HepCursor(normal, hyperlink) 
+{      
+    var LicenseKey;
+    LicenseKey="0220edbeb0c57b4fa06dd1df83bc8d20178d1c122b0fef-000028-cometzone.com;cometsystems.com;akamaitech.net";
+    
+    var BaseURL;
+    BaseURL="https://web.archive.org/web/20020701210501/http://content.cometsystems.com/hepcontent"
+    
+    var normalURL;
+    var hyperlinkURL;
+    normalURL=BaseURL + "/cursors/" + normal;
+    hyperlinkURL=BaseURL + "/cursors/" + hyperlink;
+ 
+    //CC 2.0 support
+    if(is.ie)
+    {
+        document.write("<META comet_src=\"http://files.cometsystems.com/javascript/cz_license.html\">");
+            
+        document.body.setAttribute('comet_normal', normalURL);
+        document.body.setAttribute('comet_ibeam', normalURL);
+        document.body.setAttribute('comet_hyperlink', hyperlinkURL);
+        document.body.setAttribute('comet_wait', normalURL);
+    }
+
+    //CC 1.X support
+    
+    if(is.compatibleIE)
+    {
+        document.write("<");
+        document.write("object id='CurIE' width=1 height=1 classid='CLSID:1678F7E1-C422-11D0-AD7D-00400515CAAA' CODEBASE='https://web.archive.org/web/20020701210501/http://files.cometsystems.com/cometcursor/cobrand/comet.cab#Version=1,5,0,0'>");
+        document.write('<param name="key" value="' + LicenseKey +'">');
+        document.write('<param name="normal" value="' + normalURL +'">');
+        document.write('<param name="ibeam" value="' + normalURL +'">');
+        document.write('<param name="hyperlink" value="' + hyperlinkURL +'">');
+        document.write('<param name="wait" value="' + normalURL +'">');
+        document.write('</object>');
+    }
+    if(is.compatibleNS)
+    {
+        if (is.compatible&&!is.ie3) 
+        { 
+                NSEmbed(' KEY="' + LicenseKey + '"  Normal="' + normalURL + '"  Ibeam="' + normalURL +  '"  Hyperlink="' + hyperlinkURL + '"  Wait="' + normalURL + '" ' , 'auto' , 'region'); 
+        }
+    }
+
+}
+
+
+}
+/*
+     FILE ARCHIVED ON 21:05:01 Jul 01, 2002 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:21:12 May 02, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 142.661
+  exclusion.robots: 0.067
+  exclusion.robots.policy: 0.062
+  RedisCDXSource: 1.618
+  esindex: 0.006
+  LoadShardBlock: 123.053 (3)
+  PetaboxLoader3.datanode: 97.218 (4)
+  CDXLines.iter: 16.185 (3)
+  load_resource: 51.708
+  PetaboxLoader3.resolve: 34.736
+*/

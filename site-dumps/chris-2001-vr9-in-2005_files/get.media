@@ -1,0 +1,36 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+{var dz=document;dz.writeln("<a href=\"http://media.fastclick.net/w/click.here?cid=42565&mid=86741&sid=10868&m=3&c=0\" target=\"_top\"><IMG SRC=\"http://cdn.fastclick.net/fastclick.net/cid42565/media86741.gif\" border=0 width=120 height=600 alt=\"Click Here!\"></a>");}
+
+}
+/*
+     FILE ARCHIVED ON 08:53:09 Dec 17, 2005 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:36:28 May 02, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 126.258 (3)
+  CDXLines.iter: 26.731 (3)
+  PetaboxLoader3.datanode: 238.114 (4)
+  exclusion.robots.policy: 0.135
+  captures_list: 159.596
+  PetaboxLoader3.resolve: 31.42
+  RedisCDXSource: 2.83
+  load_resource: 166.86
+  esindex: 0.01
+  exclusion.robots: 0.145
+*/

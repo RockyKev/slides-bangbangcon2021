@@ -1,0 +1,37 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+document.write("<center><table bgcolor=darkblue><tr><td><table bgcolor=ffffff><tr><td align=center><a href=\"http://dir.webring.com/rw\" style=\"text-decoration: none;\"><font face=arial color=darkblue><b>WebRing&reg;</b></a></td></tr><tr><td align=center colspan=2><font face=arial size=-1 color=darkblue>Good News! Your code is installed<br>This will show <b>Until You <a href=\"http://dir.webring.org\">Join A Ringi</a></b></font><br><font face=arial size=-2 color=black>Is this your site?<br><a href=\"http://N.webring.com/h/miss_ssnb?wrid=joe_del263&unum=97112038410033666&url=http%3A%2F%2Fmembers%2Etripod%2Ecom%2Fjoespokestuff%2Fnetmonster%2F\"><font face=arial size=-2>ID/U# has no memberships?  Click for assistance.</font></a></font></td></tr></table></td></tr></table><scr"+"ipt type=\"text/javascr"+"ipt\" language=\"javascr"+"ipt\"> var sc_project=1912118; var sc_invisible=1; var sc_partition=17; var sc_security=\"259a3061\"; </scr"+"ipt> <scr"+"ipt type=\"text/javascr"+"ipt\" language=\"javascr"+"ipt\" src=\"http://www.statcounter.com/counter/counter.js\"></scr"+"ipt>");
+
+
+}
+/*
+     FILE ARCHIVED ON 02:58:17 May 31, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:29:37 May 02, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  esindex: 0.017
+  exclusion.robots.policy: 0.244
+  load_resource: 93.933
+  PetaboxLoader3.resolve: 27.573
+  RedisCDXSource: 2.791
+  CDXLines.iter: 29.858 (3)
+  captures_list: 169.71
+  exclusion.robots: 0.262
+  LoadShardBlock: 131.973 (3)
+  PetaboxLoader3.datanode: 159.371 (4)
+*/
