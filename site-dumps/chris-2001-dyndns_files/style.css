@@ -1,0 +1,83 @@
+p.left {font-family: "Times New Roman", "Times", serif;
+        text-align: left}
+p.center {font-family: "Times New Roman", "Times", serif;
+          color: #ffffff;
+          background: transparent;
+          text-align: center;}
+p.right {font-family: "Times New Roman", "Times", serif;
+         text-align: right}
+p.italics {font-family: "Times New Roman", "Times", serif;
+           text-align: center;
+					 font-style: italic}
+p.navy {font-family: "Times New Roman", "Times", serif;
+        color: #000064;
+        background: transparent}
+div.left {background: transparent;
+          text-align: left}
+div.center {background: transparent;
+            text-align: center}
+div.right {background: transparent;
+           text-align: right}
+div.navy {font-family: "Times New Roman", "Times", serif;
+          color: #000064;
+ 	        background: transparent;
+          font-style: normal;
+          font-variant: small-caps;
+          font-weight: bold;
+          font-size: medium;
+          text-align: center}
+ul.left {font-family: "Times New Romans", "Times", serif;
+         text-align: left;}
+ul.center {font-family: "Times New Romans", "Times", serif;
+           text-align: center;}
+ul.right {font-family: "Times New Romans", "Times", serif;
+          text-align: right;}
+h1 {font-family: "Times New Roman", "Times", serif;
+    color: #ffffff;
+    background: transparent;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: small;
+    text-align: center}
+a.white {font-family: "Times New Roman", "Times", serif;
+         color: #ffffff;
+	       background: transparent;
+         text-decoration: underline}
+a:link {font-family: "Times New Roman", "Times", serif;
+           color: #ffffff;
+	         background: transparent;
+           text-decoration: underline}
+a:visited {font-family: "Times New Roman", "Times", serif;
+           color: #ffffff;
+	         background: transparent;
+           text-decoration: underline}
+a:hover {font-family: "Times New Roman", "Times", serif;
+	       text-decoration: none}
+a:active {font-family: "Times New Roman", "Times", serif;
+          color: #000064;
+	        background: #ffffff;
+	        text-decoration: underline}
+body {color: #ffffff;
+      background: #cccccc;}
+/*
+     FILE ARCHIVED ON 01:14:58 Jun 10, 2002 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:20:38 May 03, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 131.71
+  esindex: 0.016
+  PetaboxLoader3.resolve: 78.625
+  PetaboxLoader3.datanode: 163.148 (4)
+  exclusion.robots: 0.222
+  RedisCDXSource: 8.094
+  exclusion.robots.policy: 0.208
+  LoadShardBlock: 146.727 (3)
+  captures_list: 179.965
+  CDXLines.iter: 20.847 (3)
+*/

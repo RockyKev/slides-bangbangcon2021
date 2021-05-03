@@ -1,0 +1,68 @@
+
+/* FLEX */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column; 
+}
+
+.flex-row {
+    flex-direction: row; 
+}
+
+
+/* ALIGN CONTENT */
+
+.justify-around {
+	justify-content: space-around;
+
+}
+.justify-center {
+	justify-content: center;
+}
+
+.justify-evenly {
+	justify-content: space-evenly;
+}
+
+.content-center {
+	align-items: center;
+}
+
+
+/* ALIGN SELF */
+.justify-self-center {
+    justify-self: center; 
+}
+
+.self-center {
+    align-self: center;
+}
+
+/* SPACING */
+.m-0 {
+    margin: 0;
+}
+
+.m-0 img {
+    margin: 0;
+}
+
+/* EXTRA */
+
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.inner-scale-html {
+transform: scale(0.75);
+}
+
+.thank-you li {
+    text-align: left;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
