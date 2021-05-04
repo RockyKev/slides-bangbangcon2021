@@ -26,6 +26,10 @@ O = Overview Mode
 F = Fullscreen mode
 S = Speaker view 
 
+## Time to present
+10 minutes
+125 and 150 words a minute 
+
 
 ## Local deployment
 
