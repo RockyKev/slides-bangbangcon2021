@@ -61,7 +61,8 @@
 transform: scale(0.75);
 }
 
-.thank-you li {
+
+.thank-you, .thank-you p, .thank-you li {
     text-align: left;
     font-size: 0.875rem;
     line-height: 1.25rem;
